@@ -3,8 +3,7 @@ import styled from "styled-components"
 export const Container = styled.div`
 width: 100%;
 height: 100vh;
-padding-left: 8%;
-padding-right: 8%;
+padding-left: 300px;
 box-sizing: border-box;
 color: #FFF;
 
@@ -41,18 +40,20 @@ button{
 }
 
 .card{
-  width: 200px;
-  height: 230px;
-  display: inline-block;
+  width: 360px;
+  height: 450px;
+  position: relative;
+  left: 50%;
+  border: 10px solid;
   border-radius: 10px;
-  padding: 15px 25px;
-  box-sizing: border-box;
-  cursor: pointer;
-  margin: 10px 15px;
-  background-position: center;
-  background-size: cover; 
+}
+
+.github{
+  position: relative;
+  left: 10px;
 }
 
 `;
+
 
 
