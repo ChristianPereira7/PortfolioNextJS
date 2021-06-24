@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 function Sobre() {
   return(
-  
+    <>
     <NavBar>
       <div className="container">
         <div className="Logo">
@@ -32,7 +32,8 @@ function Sobre() {
           Página Sobre
       </div>
     </NavBar>
-  
+    <div className="Sobre" id="sobre"></div>
+  </>
   
   );
 }

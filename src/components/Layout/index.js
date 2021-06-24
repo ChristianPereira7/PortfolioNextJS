@@ -1,17 +1,19 @@
 import Header from '../Header'; 
-import { Container, ContentContainer } from './styles';
+import { Container} from './styles';
 
 
 
 function Layout({children}){
   return(
     <>
-      <Header></Header>
+      <Header>
+
+      </Header>
     
       <Container>
-          <ContentContainer>
+    
             {children}
-          </ContentContainer>
+       
       </Container>
     </>
   );
