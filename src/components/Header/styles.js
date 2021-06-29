@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const NavBar = styled.div`
-background-color: #1A202C;
 height: 60px;
 width: 100%;
 position: fixed;
@@ -12,7 +11,6 @@ border-bottom: 1px solid #171717;
 max-width: 1000px;
 margin: auto;
 display: flex;
-color: #FFF;
 justify-content: space-between;
 
 }
@@ -35,7 +33,6 @@ nav{
   padding: 10px;
   padding-bottom: 10px;
   display: flex;
-  color: #FFF;
 
 
     ul, li{

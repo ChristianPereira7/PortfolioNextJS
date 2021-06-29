@@ -1,8 +1,13 @@
 import Layout from '../components/Layout';
 import Image from 'next/image';
 import Perfil from '../../public/perfil.jpeg';
+import Github from '../../public/github.jpg';
+import React from '../../public/reactjs.jpg';
+import Next from '../../public/nextjs.jpg';
+import { FiArrowRight } from 'react-icons/fi';
+import { AiOutlineInstagram } from 'react-icons/ai';
+import { AiFillLinkedin} from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
-
 
 
 
@@ -12,22 +17,38 @@ export default function Home() {
           <div className="container">
               <div className="desc">
                     <h1>Christian Pereira, <br/> Desenvolvedor Web e Mobile.</h1>
-                    <p>Experiência em tecnologia e desenvolvimento, atualmente faço trabalhos como freelancer na área de desenvolvimento. Sou recém-formado em Análise e Desenvolvimento de Sistemas, estou me dedicando agora ao estudo de soluções FullStack e práticas Devops.
-                    <p>. Conhecimento básico nas linguagens: Java, PHP, C#;</p>
-                    <p>. Instalação e uso de IDEs (NetBeans, Android Studio, Visual Studio Code);</p>
-                    <p>. Manutenção e instalação de WordPress;</p>
-                    <p>. Versionameto (Git/GitHub);</p>
-                    <p>. Metodologia Ágil;</p>
-                    <p>Pró-ativo, dinamismo, facilidade de aprendizado e relacionamento, comunicação e trabalho em equipe.</p>
-                    </p>
-                      <button>Projetos no GitHub <p className="github"><AiFillGithub size={35}/></p></button>
+                    <p>Tecnologias que uso para desenvolvimento:</p>
+                 
+                 
+                    <ul className="stacks">
+                      <li className="git">  <Image src={Github} alt="git" width={300} height={300} className={'img'}/></li>
+                      <li className="next">  <Image src={Next} alt="nextjs"width={300} height={300} className={'img'}/></li>
+                      <li className="react">  <Image src={React} alt="reactjs" width={300} height={300} className={'img'}/></li>
+                    </ul>
+                  
+                   
+                      <button>Conheça o meu portfolio<p className="seta-direita"><FiArrowRight size={35}/></p></button>
               </div>
               <div className="container">
                   <div className="card">
-                       <Image src={Perfil} alt="Perfil"/>
+                      <div>
+                          <Image src={Perfil} alt="Perfil"/>
+                      </div>
+                      <div>
+                      <p class="prev">Tenho 20 anos, sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Nove de Julho.</p>  
+                         <div className="social-media">
+                            <a href="https://github.com/ChristianPereira7"><buttom className="github"><AiFillGithub size={35}/></buttom></a>
+                            <a href="https://www.instagram.com/christian.pereira_/"><buttom className="insta"><AiOutlineInstagram size={35}/></buttom></a>
+                            <a href="https://linkedin.com/in/christian-p-b8b624195"><buttom className="linkedin"><AiFillLinkedin size={35}/></buttom></a>
+                         </div>
+                      </div>
                   </div>
+                  
               </div>
             </div>
         </Layout>
     );
 }
+
+
+

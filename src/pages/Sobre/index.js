@@ -10,7 +10,7 @@ function Sobre() {
       <div className="container">
         <div className="Logo">
             <Link href="/">
-              <a className="logo">Christian Pereira</a>
+              <a className="logo">Christian</a>
             </Link>
         </div>
         <nav>
