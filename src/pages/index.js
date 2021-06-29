@@ -16,7 +16,7 @@ export default function Home() {
         <Layout>
           <div className="container">
               <div className="desc">
-                    <h1>Christian Pereira, <br/> Desenvolvedor Web e Mobile.</h1>
+                    <h1>Desenvolvedor Web e Mobile.</h1>
                     <p>Tecnologias que uso para desenvolvimento:</p>
                  
                  
@@ -35,6 +35,7 @@ export default function Home() {
                           <Image src={Perfil} alt="Perfil"/>
                       </div>
                       <div>
+                      <h2 className="name">Christian Pereira</h2>
                       <p class="prev">Tenho 20 anos, sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Nove de Julho.</p>  
                          <div className="social-media">
                             <a href="https://github.com/ChristianPereira7"><buttom className="github"><AiFillGithub size={35}/></buttom></a>

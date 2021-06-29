@@ -32,8 +32,8 @@ button{
   font-size: 22px;
   border-radius: 10px;
   background-color: #1A202C;
-  color: #FFF;
-  border-color: #FFF;
+  color: #e6e5e8;
+  border-color: #e6e5e8;
   margin-top: 50px; 
   cursor: pointer;
 }
@@ -41,7 +41,7 @@ button{
 .card{
   background-color: #171717;
   width: 380px;
-  height: 660px;
+  height: 740px;
   position: relative;
   left: 20%;
   top: 50px;
@@ -88,14 +88,14 @@ button{
 }
 
 .insta{
-  color: #FFF;
+  color: #e6e5e8;
  
    &:hover{
             color: #999;
           }
 }
 .linkedin{
-  color: #FFF;
+  color: #e6e5e8;
   
     &:hover{
             color: #999;
@@ -103,7 +103,7 @@ button{
 }
 
 .github{
-  color: #FFF;
+  color: #e6e5e8;
   
     &:hover{
             color: #999;
@@ -114,8 +114,7 @@ button{
   text-align: justify;
   padding-left: 7%;
   padding-right: 7%;
-  padding-top: 10px;
-  color: #FFF;
+  color: #e6e5e8;
 }
 
 .stacks{
@@ -138,6 +137,12 @@ button{
 .react{
     margin-right: 20px;
 
+}
+
+.name{
+  padding-left: 15px;
+  font-size: 30px;
+  color: #e6e5e8;
 }
 `;
 
